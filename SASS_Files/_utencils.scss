@@ -1,0 +1,18 @@
+@mixin bodyProperty{
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    font-style: $font-style;
+    color: $primary-color;
+    background-color: $secondary-color;
+}
+
+
+// FlexBox and Grids
+@mixin flex($flex-direction:row){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}

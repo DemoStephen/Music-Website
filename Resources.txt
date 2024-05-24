@@ -1,0 +1,6 @@
+Color Palette
+1. #FFF804
+2. #81836C
+3. #E280FF
+4. #ffffff
+5. #000000
