@@ -11,7 +11,7 @@ body {
         @include flex(row);
         padding: 0 5%;
         img{
-            width: 70px;
+            width: 100px;
         }
         ul{
             @include flex(row);
@@ -37,7 +37,7 @@ body {
             }
             button{
                 padding: 15px 40px;
-                border-radius: 20px;
+                border-radius: 10px;
                 border: none;
                 color: $secondary-color;
                 background-color: $primary-color;
