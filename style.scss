@@ -5,7 +5,7 @@
 
 body {
     @include bodyProperty;
-    
+    margin: 0 auto;
     // Navigation
     nav{
         @include flex(row);
@@ -104,6 +104,15 @@ body {
             div{
                 padding: 100px;
                 border: 2px solid black;
+                .width-button{
+                    background-color: $primary-color;
+                    color: white;
+                    padding: 13px;
+                    margin: 20px 0 0 0;
+                    border: none;
+                    border-radius: 20px;
+                    width: 35%;
+                }
                 .risks-button{
                     padding: 5px 10px;
                     background-color: white;
@@ -115,6 +124,13 @@ body {
                     font-size: 30px;
                     margin-bottom: 3rem;
                 }
+                p{ 
+                    font-size: 20px;
+                }
+                img{
+                    width: 300px;
+                    margin: 2rem 0;
+                }
                 &:nth-child(1){
                     grid-column-start: 1;
                     grid-column-end: 3;
@@ -122,15 +138,38 @@ body {
                 }
                 &:nth-child(2){
                     border-right: none;
+                    background-color: $background-color-1;
+                }
+                &:nth-child(3){
+                    background-color: $tertiary-color;
                 }
                 &:nth-child(4){
                     grid-column-start: 1;
                     grid-column-end: 3;
                     border-top: none;
                     padding: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-content: center;
+                    align-items: center;
+                    color: $secondary-color;
+                    background-color: $primary-color;
+                    a{
+                        color:white;
+                        p{
+                        font-size: $font-size;
+
+                        }
+                    }
+                    .short-p{
+                        width: 60%;
+                        text-align: start;
+                    }
                 }
             }
 
         }
+        
     }
+
 }

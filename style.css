@@ -12,6 +12,7 @@ body {
   font-style: normal;
   color: #000000;
   background-color: #ffffff;
+  margin: 0 auto;
 }
 body nav {
   display: flex;
@@ -127,6 +128,15 @@ body main .grid div {
   padding: 100px;
   border: 2px solid black;
 }
+body main .grid div .width-button {
+  background-color: #000000;
+  color: white;
+  padding: 13px;
+  margin: 20px 0 0 0;
+  border: none;
+  border-radius: 20px;
+  width: 35%;
+}
 body main .grid div .risks-button {
   padding: 5px 10px;
   background-color: white;
@@ -138,6 +148,13 @@ body main .grid div h3 {
   font-size: 30px;
   margin-bottom: 3rem;
 }
+body main .grid div p {
+  font-size: 20px;
+}
+body main .grid div img {
+  width: 300px;
+  margin: 2rem 0;
+}
 body main .grid div:nth-child(1) {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -145,10 +162,30 @@ body main .grid div:nth-child(1) {
 }
 body main .grid div:nth-child(2) {
   border-right: none;
+  background-color: #FFF804;
+}
+body main .grid div:nth-child(3) {
+  background-color: #81836C;
 }
 body main .grid div:nth-child(4) {
   grid-column-start: 1;
   grid-column-end: 3;
   border-top: none;
   padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000000;
+}
+body main .grid div:nth-child(4) a {
+  color: white;
+}
+body main .grid div:nth-child(4) a p {
+  font-size: 1rem;
+}
+body main .grid div:nth-child(4) .short-p {
+  width: 60%;
+  text-align: start;
 }/*# sourceMappingURL=style.css.map */
