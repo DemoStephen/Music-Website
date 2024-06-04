@@ -188,4 +188,11 @@ body main .grid div:nth-child(4) a p {
 body main .grid div:nth-child(4) .short-p {
   width: 60%;
   text-align: start;
+}
+
+.outline-text {
+  color: white; /* Text color */
+  -webkit-text-stroke-width: 1px; /* Stroke width */
+  -webkit-text-stroke-color: #1500ff; /* Stroke color */
+  font-size: 100px;
 }/*# sourceMappingURL=style.css.map */
