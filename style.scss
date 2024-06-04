@@ -171,5 +171,10 @@ body {
         }
         
     }
-
+    
+}
+.outline-text {
+    color: white; /* Text color */
+    -webkit-text-stroke-width: 1px; /* Stroke width */
+    -webkit-text-stroke-color: black; /* Stroke color */
 }
