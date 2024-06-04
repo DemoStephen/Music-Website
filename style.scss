@@ -124,9 +124,7 @@ body {
                     font-size: 30px;
                     margin-bottom: 3rem;
                 }
-                p{ 
-                    font-size: 20px;
-                }
+
                 img{
                     width: 300px;
                     margin: 2rem 0;
@@ -169,7 +167,61 @@ body {
             }
 
         }
-        
+        .section_two{ 
+            @include flex(row);
+            padding: 7rem 5%;
+            .our-services{
+                width: 50%;
+                text-align: center;
+                button{
+                    padding: 10px;
+                    width: 30%;
+                    border-radius: 15px;
+                    border: 2px solid black;
+                    margin: 2rem 0 0 0;
+                    background-color: white;
+                }
+                #button-services{
+                    padding: 5px 10px;
+                    margin: 0 0 2rem 0;
+                    width: unset;
+                    border-radius: unset;
+                    margin: unset;
+                }
+                h2{
+                    color: white;
+                    -webkit-text-stroke: black;
+                    -webkit-text-stroke-width: 1px;
+                    padding: 0 15%;
+                    font-size: 3rem;
+                    margin: 1rem 0;
+                }
+                img{
+                    width: 55%;
+                    margin: 3rem 0;
+                    transform: rotate(-5deg);
+                    border: 2px solid black;
+                }
+                
+            }
+            .making-records{ 
+                width: 40%;
+                // border: 2px solid black;
+                h3{ 
+                    background-color: black;
+                    color: white;
+                    padding: 1.5rem 1.5rem 5rem 1.5rem;
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        padding: 20px;
+                        border: 2px solid black;
+                        border-top: none;
+                    }
+                }
+            }
+        }
     }
     
 }

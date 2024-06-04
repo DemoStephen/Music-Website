@@ -8,7 +8,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-style: normal;
   color: #000000;
   background-color: #ffffff;
@@ -148,9 +148,6 @@ body main .grid div h3 {
   font-size: 30px;
   margin-bottom: 3rem;
 }
-body main .grid div p {
-  font-size: 20px;
-}
 body main .grid div img {
   width: 300px;
   margin: 2rem 0;
@@ -183,11 +180,68 @@ body main .grid div:nth-child(4) a {
   color: white;
 }
 body main .grid div:nth-child(4) a p {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 body main .grid div:nth-child(4) .short-p {
   width: 60%;
   text-align: start;
+}
+body main .section_two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 7rem 5%;
+}
+body main .section_two .our-services {
+  width: 50%;
+  text-align: center;
+}
+body main .section_two .our-services button {
+  padding: 10px;
+  width: 30%;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 2rem 0 0 0;
+  background-color: white;
+}
+body main .section_two .our-services #button-services {
+  padding: 5px 10px;
+  margin: 0 0 2rem 0;
+  width: unset;
+  border-radius: unset;
+  margin: unset;
+}
+body main .section_two .our-services h2 {
+  color: white;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 1px;
+  padding: 0 15%;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+body main .section_two .our-services img {
+  width: 55%;
+  margin: 3rem 0;
+  transform: rotate(-5deg);
+  border: 2px solid black;
+}
+body main .section_two .making-records {
+  width: 40%;
+}
+body main .section_two .making-records h3 {
+  background-color: black;
+  color: white;
+  padding: 1.5rem 1.5rem 5rem 1.5rem;
+}
+body main .section_two .making-records ul {
+  list-style: none;
+}
+body main .section_two .making-records ul li {
+  padding: 20px;
+  border: 2px solid black;
+  border-top: none;
 }
 
 .outline-text {
