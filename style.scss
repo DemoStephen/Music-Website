@@ -148,7 +148,7 @@ body {
                     grid-column-start: 1;
                     grid-column-end: 3;
                     border-top: none;
-                    padding: 50px;
+                    padding: 6rem;
                     display: flex;
                     justify-content: space-between;
                     align-content: center;
@@ -241,6 +241,7 @@ body {
                     img{
                         width: 30%;
                         margin: 10px;
+                        filter: invert(100%);
                     }
                 }
                 button{
@@ -368,14 +369,131 @@ body {
         .section_five{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            
+            #flex-section{
+                grid-column: 1/3;
+                display: flex;
+                justify-content: space-between;
+                padding: 5rem 0;
+                border-bottom: 2px solid black;
+            }
+            #text-section{
+                background-color: $background-color-1;
+                padding: 2rem;
+                #first{
+                    padding: 10px;
+                    border-radius: 0;
+                    border: 2px solid black;
+                    margin-bottom: 10rem;
+                }
+                p{
+                    margin-bottom: 1.5rem;
+                }
+                #sol{
+                    margin-bottom: 10rem;
+                }
+                .botton-ul-ol{ 
+                    padding: 10px 15px;
+                    border-radius: 50px;
+                    background-color: unset;
+                    border: 2px solid black;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+            #make-it-real{
+                background-color: black;
+                color: white;
+                grid-column: 1/3;
+                padding: 4rem 20%;
+                text-align: center;
+                #vinyl-button{
+                    padding: 10px;
+                    border-radius: 0px;
+                    color: white;
+                    background-color: unset;
+                    margin-bottom: 3rem;
+                    border: 2px solid;
+                }
+                h3{
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+                    padding: 0 30%;
+                }
+                p{
+                    padding: 0 15%;
+                    font-size: 18px;
+                    margin-bottom: 2rem;
+                }
+                img{
+                    width: 50%;
+                }
+                #try-it-now{ 
+                    padding: 15px;
+                    border-radius: 25px;
+                    border: none;
+                    background-color: $background-color-1;
+                    color: $primary-color;
+                    width: 30%;
+                    margin: 2rem 0;
+                }
+            }
+            #image-section{
+                background-image: url("./Images/illustration images/illustration2.jpg");
+                background-position: center;
+                background-size: contain;
+            }
+            div{
+                border: 1.5px solid black;
+                padding: 1rem 0;
+            }
+        }
+    }
+
+    // Footer
+    footer{
+        background-color: $primary-color;
+        color: white;
+        padding: 0 5rem;
+        #section_one{
+            display: flex;
+            justify-content: space-between;
+            padding: 5rem 0;
+            div{
+                margin: 2rem 0;
+                h3{
+                    margin-bottom: 1rem;
+                }
+                p{
+                    padding: 5px;
+                    padding-left: 0;
+                }
+            }
+        }
+        #section_two{ 
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            align-content: center;
+            padding: 5rem 0;
+            font-size: 14px;
+            img{
+                width: 20%;
+                filter: invert(1);                
+            }
+            #social-copy {
+                #copyright span{ 
+                    margin-left: 10px;
+                }
+            }
         }
     }
     
 }
-.outline-text {
-    color: white; /* Text color */
-    -webkit-text-stroke-width: 1px; /* Stroke width */
-    -webkit-text-stroke-color: #1500ff; /* Stroke color */
-    font-size: 100px;
-}
+// .outline-text {
+//     color: white; /* Text color */
+//     -webkit-text-stroke-width: 1px; /* Stroke width */
+//     -webkit-text-stroke-color: #1500ff; /* Stroke color */
+//     font-size: 100px;
+// }
