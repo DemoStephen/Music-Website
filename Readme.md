@@ -1,6 +1,6 @@
-# CRYPTO
+# Qrates
 
-Vinyl Studion Website.
+Vinyl Studio Website.
 Project 2
 
 ## Authors
